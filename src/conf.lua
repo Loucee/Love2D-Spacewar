@@ -4,8 +4,9 @@ function love.conf(t)
 	t.console = false
 
 	t.window.resizable = false
-    t.window.width = 800
-    t.window.height = 600
+    	t.window.width = 800
+    	t.window.height = 600
+	t.window.msaa = 16
 
 	t.window.title = "Spacewar!"
 end
